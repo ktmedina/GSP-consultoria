@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9ecf4;
+	
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    background: #48A6B5;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: #E3B14A;
+}
+
+h2{
+    color: #E3B14A;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 24px;
+    color: #191717;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.logo {
+    max-height: 100px;
+    margin-left: 20px;
+}
+
+.logo img{
+    height: 100%;
+    max-height: 100px;
+}
+
+header nav{
+    margin-right: 100px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    color: #E3B14A;
+    font-weight: bold;  
+}
+
+header nav ul li a:hover{
+    color:#48A6B5;
+    font-weight: bold;  
+}
+
+/* Footer */
+
+footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.marca{
+    background-color: #e9ecf4;
+}
+
+/* Banner */
+
+.banner{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.banner img{
+    width: 100%;
+    
+}
+
+/* Seccion Nosotros */
+
+.nosotros-container{
+    
+    display: flex;
+    margin: 50px auto;
+}
+
+.nosotros-nombre{
+    width: 100%;
+    text-align: center;
+}
+
+.gsp{
+    color: #48A6B5;
+    font-size:168px ;
+}
+
+.consultores{
+    color: #E3B14A;
+    font-size: 64px;
+}
+
+.nosotros-info{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.nosotros-info p{
+    color: #191717;
+    font-size: 24px;
+    padding: 40px;
+    text-align: left;
+}
+
+/* Seccion Experiencias */
+
+.experiencia-container{
+    background-color: #ffff;
+    display: flex;
+  
+    margin: auto;
+}
+
+.experiencia-info{
+    width: 100%;
+    padding: 100px 100px;
+    
+    
+}
+
+
+.experiencia-carrusel{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.experiencia-carrusel img{
+   
+    max-height: 500px;
+
+}
+
+/* Seccion 3 Consultoria SAP */
+
+.consultoria-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultoria-info{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.consultoria-info i{
+    margin-right: 10px;
+    font-size: 15px;
+    color: #E3B14A;
+}
+
+.consultoria-info .btn{
+    margin-top: 20px;
+}
+
+
+
+.consultoria-img{
+    width: 100%;
+    text-align: center;
+}
+
+/* Seccion 4 Servicios */
+
+.servicio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.servicio-img{
+    width: 100%;
+    text-align: center;
+}
+
+.servicio-info{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.servicio-info i{
+    margin-right: 10px;
+    font-size: 15px;
+    color: #E3B14A;
+}
+
+.servicio-info .btn{
+    margin-top: 20px;
+}
+
+/* Seccion 5 Socios */
+
+.socio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socio-img{
+    width: 100%;
+    text-align: center;
+}
+
+.socio-img img{
+   max-height: 500px;
+}
+
+.socio-info{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Seccion 6 Banderas */
+
+.banderas-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    padding: 20px;
+}
+
+.banderas{
+    display: flex;
+    
+}
+
+.banderas img{
+    max-height: 100px;
+    margin: 15px;
+}
+
+/* Seccion 7 Contacto */
+
+.contacto-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-form{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-form form{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+}
+
+.contacto-form form .input{
+    width: 50%;
+}
+
+.contacto-form form .input input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 0;
+}
+.contacto-form form .text-area{
+    width: 50%;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.contacto-form form .text-area textarea{
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 0;
+    padding: 20px;
+   
+}
+
+.contacto-form form .text-area .btn{
+    width: 100%;
+}
+
+.contacto-info{
+width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contacto-info i {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #E3B14A;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
