@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Estilos -->
+    <!-- Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Estilos -->
     <link rel="stylesheet" href="../style/style.css">
     <title>GSP Consultoría - Nosotros</title>
 </head>
@@ -53,18 +57,24 @@
 
 
     <div class="valores-container">
-        <h2>Nuestros Valores</h2>
+        <h2 data-aos="zoom-in">Nuestros Valores</h2>
         <div class="valores-info">
             <div>
-                <h3><i class="fa-solid fa-angles-right"></i>Calidad:</h3>
+                <h3 data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"><i class="fa-solid fa-angles-right"></i>Calidad:</h3>
                 <p>El esfuerzo continuo de nuestro equipo profesional sumado a la excelencia y especialización nos permite entregar soluciones de negocios de gran calidad que maximizan el aporte de valor a nuestros clientes.</p>
             </div>
             <div>
-                <h3><i class="fa-solid fa-angles-right"></i>Integridad:</h3>
+                <h3 data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"><i class="fa-solid fa-angles-right"></i>Integridad:</h3>
                 <p>Somos fieles a nuestras promesas y compromisos, cumpliendo estándares de calidad y óptimos niveles de servicio, construyendo una relación de confianza, respeto y honestidad con nuestros clientes y colaboradores.</p>
             </div>
             <div>
-                <h3><i class="fa-solid fa-angles-right"></i>Colaboración:</h3>
+                <h3 data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"><i class="fa-solid fa-angles-right"></i>Colaboración:</h3>
                 <p>La capacidad de adaptación al cliente y la flexibilidad de nuestro equipo de especialistas son garantía de éxito mutuo, generando sinergía y asi, lograr el exitoso compromiso y trabajo en equipo.</p>
             </div>
         </div>
@@ -125,5 +135,9 @@
           </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
