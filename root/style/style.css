@@ -473,7 +473,132 @@ width: 100%;
 
 
 
+/* -------------------------- Servicios -------------------------- */
 
+.serv-container{
+    background-color: #ffff;
+}
+.serv-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-info{
+    width: 100%;
+    padding: 30px;
+}
+
+.serv-info-img{
+    width: 100%;
+    padding: 30px;
+}
+
+.serv-info-img img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.serv-2{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.serv-2 img{
+    width: auto;
+    height: 100%;
+    max-height: 300px;
+}
+
+.cualidades-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.cualidades-container h2{
+    margin: 10px;
+    width: 100%;
+}
+
+.cualidades-container p{
+    margin: 20px ;
+    width: 100%;
+}
+
+.cualidades-container i{
+    color: #E3B14A;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* proyectos */
+
+.proyectos-container{
+    background-color: #ffff;
+    padding-top: 20px;
+}
+
+.proyectos-container h2{
+    text-align: center;
+}
+
+.proyectos-titulos h3 i{
+    color: #E3B14A;
+    margin-right: 10px;
+}
+
+.show{
+    display: inline-block;
+}
+
+.hidden{
+    display: none;
+}
+
+.proyectos-card{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.proyectos-titulos{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.proyectos-titulos h3{
+    cursor: pointer;
+    
+}
+
+.proyectos-titulos h3:hover{
+    color: #E3B14A;
+    
+}
+
+.proyectos-info{
+    width: 100%;
+    padding: 20px;
+}
+
+.proyectos-info p i{
+    color: #E3B14A;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.fa-caret-right{
+    margin-left: 10px;
+}
+
+.proyecto.active {
+    color: #E3B14A; 
+}
 
 
 
