@@ -130,8 +130,7 @@ footer{
 
 .gsp{
     color: #48A6B5;
-    font-size:168px ;
-   
+    font-size:168px ;  
 }
 
 .consultores{
@@ -157,8 +156,7 @@ footer{
 
 .experiencia-container{
     background-color: #ffff;
-    display: flex;
-  
+    display: flex; 
     margin: auto;
 }
 
@@ -170,18 +168,34 @@ footer{
 }
 
 
-.experiencia-carrusel{
+.container-carousel{
+    position: relative;
     width: 100%;
     text-align: center;
+    overflow: hidden;
     
     
 }
 
-.experiencia-carrusel img{
-   
+.carruseles{
+    width: 300%;
+    height: 100%;
+    display: flex;
+}
+
+.slider-section{
+    width: calc(100% /3);
+    height: 100%;
+}
+
+.container-carousel img{ 
     max-height: 500px;
+    height: 100%;
+    object-fit: cover;
 
 }
+
+
 
 /* Seccion 3 Consultoria SAP */
 
@@ -267,7 +281,7 @@ footer{
 }
 
 .socio-img img{
-   max-height: 500px;
+    max-height: 500px;
 }
 
 .socio-info{
