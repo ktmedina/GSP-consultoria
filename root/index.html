@@ -1,241 +1,300 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Animaciones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!-- Estilos -->
-    <link rel="stylesheet" href="./style/style.css">
-    
+    <link rel="stylesheet" href="./style/style.css" />
 
     <title>GSP Consultoría</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="./assets/logo_gsp.png" alt="Logo_gsp">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/sap.html">Consultoría</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="./assets/logo_gsp.png" alt="Logo_gsp" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./pages/nosotros.html">Nosotros</a></li>
+          <li><a href="./pages/servicios.html">Servicios</a></li>
+          <li><a href="./pages/sap.html">Consultoría</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="banner">
-            <img src="./assets/banner.png" alt="banner_gsp">
-        </div>
+      <div class="banner">
+        <img src="./assets/banner.png" alt="banner_gsp" />
+      </div>
 
-        <div class="nosotros-container">
-            
-                <div class="nosotros-nombre ">
-                    <h1 class="gsp animate__animated animate__backInDown">
-                        GSP
-                    </h1>
-                    <p class="consultores animate__animated animate__backInDown">
-                        Consultores
-                    </p>
-                </div>
-                <div class="nosotros-info">
-                    <p>
-                        Somos especialistas en desarrollo de soluciones y otorgar soporte SAP, con un importante historial de referencias en empresas de distintos rubros.
-                    </p>
-                    
-                        <a class="btn" href="./pages/nosotros.html">Saber más</a>
-                    
-                </div>
-            
+      <div class="nosotros-container">
+        <div class="nosotros-nombre">
+          <h1 class="gsp animate__animated animate__backInDown">GSP</h1>
+          <p class="consultores animate__animated animate__backInDown">
+            Consultores
+          </p>
         </div>
+        <div class="nosotros-info">
+          <p>
+            Somos especialistas en desarrollo de soluciones y otorgar soporte
+            SAP, con un importante historial de referencias en empresas de
+            distintos rubros.
+          </p>
 
-        <div class="experiencia-container">
-            <div class="experiencia-info">
-                <h2 data-aos="zoom-in">
-                    Nuestra <br> Experiencia
-                </h2>
-                <p>
-                    GSP Consultores mantiene con cada cliente el compromiso de atender cada necesidad y
-                    entregar soluciones integrales a importantes compañías.
-                </p>
-            </div>
-            <div class="container-carousel">
-                <div class="carruseles" id="slider">
-                    <section class="slider-section">
-                        <img src="./assets/carrusel/1.png">
-                    </section>
-                    <section class="slider-section">
-                        <img src="./assets/carrusel/2.png">
-                    </section>
-                    <section class="slider-section">
-                        <img src="./assets/carrusel/3.png">
-                    </section>
-                    <section class="slider-section">
-                        <img src="./assets/carrusel/4.png">
-                    </section>
-                    <section class="slider-section">
-                        <img src="./assets/carrusel/5.png">
-                    </section>
-                    <section class="slider-section">
-                        <img src="./assets/carrusel/6.png">
-                    </section>
-                </div>
-                <!-- <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
+          <a class="btn" href="./pages/nosotros.html">Saber más</a>
+        </div>
+      </div>
+
+      <div class="experiencia-container">
+        <div class="experiencia-info">
+          <h2 data-aos="zoom-in">
+            Nuestra <br />
+            Experiencia
+          </h2>
+          <p>
+            GSP Consultores mantiene con cada cliente el compromiso de atender
+            cada necesidad y entregar soluciones integrales a importantes
+            compañías.
+          </p>
+        </div>
+        <div class="container-carousel">
+          <div class="carruseles" id="slider">
+            <section class="slider-section">
+              <img src="./assets/carrusel/1.png" />
+            </section>
+            <section class="slider-section">
+              <img src="./assets/carrusel/2.png" />
+            </section>
+            <section class="slider-section">
+              <img src="./assets/carrusel/3.png" />
+            </section>
+            <section class="slider-section">
+              <img src="./assets/carrusel/4.png" />
+            </section>
+            <section class="slider-section">
+              <img src="./assets/carrusel/5.png" />
+            </section>
+            <section class="slider-section">
+              <img src="./assets/carrusel/6.png" />
+            </section>
+          </div>
+          <!-- <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
                 <div class="btn-right"><i class="bx bx-chevron-right"></i></div> -->
-            </div>
         </div>
+      </div>
 
-        <div class="consultoria-container">
-            <div data-aos="zoom-in" class="consultoria-img">
-                <img src="./assets/consultoria_sap.png" alt="consultoria_sap">
-            </div>
-            <div class="consultoria-info">
-                <h2 data-aos="zoom-in">Consultoría SAP</h2>
-                <p data-aos="fade-right">
-                    <i class="fa-solid fa-circle"></i>Mantenimiento correctivo y evolutivo. 
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Modelamiento de soluciones.
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Soluciones especificas.
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Implementación de SAP.
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Upgrade de SAP
-                </p>
-            <a class="btn" href="./pages/sap.html">Saber más</a>
-
-            </div>
-
+      <div class="consultoria-container">
+        <h2 class="mobile" data-aos="zoom-in">Consultoría SAP</h2>
+        <div data-aos="zoom-in" class="consultoria-img">
+          <img src="./assets/consultoria_sap.png" alt="consultoria_sap" />
         </div>
+        <div class="consultoria-info">
+          <h2 data-aos="zoom-in">Consultoría SAP</h2>
+          <p data-aos="fade-right">
+            <i class="fa-solid fa-circle"></i>Mantenimiento correctivo y
+            evolutivo.
+            <br />
+            <i class="fa-solid fa-circle"></i>Modelamiento de soluciones.
+            <br />
+            <i class="fa-solid fa-circle"></i>Soluciones especificas.
+            <br />
+            <i class="fa-solid fa-circle"></i>Implementación de SAP.
+            <br />
+            <i class="fa-solid fa-circle"></i>Upgrade de SAP
+          </p>
+          <a class="btn" href="./pages/sap.html">Saber más</a>
+        </div>
+      </div>
 
-        <div class="servicio-container">
-            
-            <div class="servicio-info">
-                <h2 data-aos="zoom-in">Nuestros Servicios</h2>
-                <p data-aos="fade-right">
-                    <i class="fa-solid fa-circle" ></i>Centro de Soporte SAP. 
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Soluciones Especificas.
-                    <br>
-                    <i class="fa-solid fa-circle"></i> Mejoras y Optimización.
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Implantación de Soluciones.
-                    <br>
-                    <i class="fa-solid fa-circle"></i>Estrategia de Soluciones de Consultoría.
-                    
+      <div class="servicio-container">
+        <div class="servicio-info">
+          <h2 data-aos="zoom-in">Nuestros Servicios</h2>
+          <div data-aos="zoom-in" class="servicio-img">
+            <img class="mobile" src="./assets/servicios.png" alt="consultoria_sap" />
+          </div>
+          <p data-aos="fade-right">
+            <i class="fa-solid fa-circle"></i>Centro de Soporte SAP.
+            <br />
+            <i class="fa-solid fa-circle"></i>Soluciones Especificas.
+            <br />
+            <i class="fa-solid fa-circle"></i> Mejoras y Optimización.
+            <br />
+            <i class="fa-solid fa-circle"></i>Implantación de Soluciones.
+            <br />
+            <i class="fa-solid fa-circle"></i>Estrategia de Soluciones de
+            Consultoría.
+          </p>
+          <a class="btn" href="./pages/servicios.html">Saber más</a>
+        </div>
+        <div data-aos="zoom-in" class="servicio-img img-hidden">
+          <img src="./assets/servicios.png" alt="consultoria_sap" />
+        </div>
+      </div>
 
+      <div class="socio-container">
+        <div data-aos="zoom-in" class="socio-img img-hidden">
+          <img src="./assets/socios.png" alt="socios_proyecto" />
+        </div>
+        <div class="socio-info">
+          <h2 data-aos="zoom-in-left">
+            Un Socio Comprometido Para Proyectarse Hacia El Futuro
+          </h2>
+          <div data-aos="zoom-in" class="socio-img mobile">
+            <img src="./assets/socios.png" alt="socios_proyecto" />
+          </div>
+          <p>
+            Además de entregar soluciones, establecemos relaciones de confianza
+            para asegurar el éxito de su negocio.
+            <br /><br />
+            Queremos que nuestros clientes nos reconozcan como socios
+            estratégicos para acompañarlos en sus procesos de crecimiento y
+            maximización del valor.
+            <br /><br />
+            Somos profesionales altamente competentes, con conocimiento senior,
+            motivados y alineados con nuestros valores.
+          </p>
+        </div>
+      </div>
 
+      <div class="banderas-container">
+        <p>
+          GSP Consultores, a través de su staff de consultores posee experiencia
+          en variados países, los principales de ello son:
+        </p>
+        <div class="banderas">
+          <img
+            data-aos="flip-left"
+            src="./assets/banderas/argentina.png"
+            alt="argentina"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/brasil.png"
+            alt="brasil"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/chile.png"
+            alt="chile"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/colombia.png"
+            alt="colombia"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/costa_rica.png"
+            alt="costa_rica"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/ecuador.png"
+            alt="ecuador"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/españa.png"
+            alt="españa"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/usa.png"
+            alt="usa"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/panama.png"
+            alt="panama"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/peru.png"
+            alt="peru"
+          /><img
+            data-aos="flip-left"
+            src="./assets/banderas/vzla.png"
+            alt="vzla"
+          />
+        </div>
+      </div>
+
+      <div class="contacto-container">
+        <h2>Contacto</h2>
+        <div class="contacto-form">
+          <form action="enviar.php" method="post">
+            <div class="input">
+              <input type="text" name="nombre" placeholder="Nombre" required />
+              <input
+                type="mail"
+                name="correo"
+                placeholder="Correo Electrónico"
+                required
+              />
+              <input type="text" name="asunto" placeholder="Asunto" required />
+            </div>
+            <div class="text-area">
+              <textarea
+                name="mensaje"
+                placeholder="Escriba su mensaje"
+                required
+              ></textarea>
+              <input class="btn" type="submit" value="Enviar" id="btn" />
+            </div>
+          </form>
+          <div class="contacto-info">
+            <p>
+              <b>GSP Consultores Chile</b>
+              <br />
+              <i class="fa-solid fa-location-dot"></i>Orinoco 90 Piso 21 Las
+              Condes, Santiago de Chile
+              <br />
+              <i class="fa-solid fa-phone"></i>+56 2 XXX
+              <br />
+              <i class="fa-solid fa-envelope"></i>gspgspgsp@gsp.com
+              <br />
+              <br />
+              <b>GSP Consultores Ecuador</b>
+              <br />
+              <i class="fa-solid fa-location-dot"></i>12 de octubre 24-739 Ed.
+              Boreal of 1401, Quito
+              <br />
+              <i class="fa-solid fa-phone"></i>+593 2 3826 916
+              <br />
+              <i class="fa-solid fa-envelope"></i>gspgspgsp@gsp.com
             </p>
-            <a class="btn" href="./pages/servicios.html">Saber más</a>
-            
-
-            </div>
-            <div data-aos="zoom-in" class="servicio-img">
-                <img src="./assets/servicios.png" alt="consultoria_sap">
-            </div>
-
+          </div>
         </div>
-
-        <div class="socio-container">
-            <div data-aos="zoom-in" class="socio-img">
-                <img src="./assets/socios.png" alt="socios_proyecto">
-            </div>
-            <div class="socio-info">
-                <h2 data-aos="zoom-in-left">Un Socio Comprometido Para
-                    Proyectarse Hacia El Futuro</h2>
-                    <p>
-                        Además de entregar soluciones, establecemos 
-                        relaciones de confianza para asegurar el éxito
-                        de su negocio.
-                        <br><br>
-                        Queremos que nuestros clientes nos reconozcan
-                        como socios estratégicos para acompañarlos
-                        en sus procesos de crecimiento y
-                        maximización del valor.
-                        <br><br>
-                        Somos profesionales altamente competentes,
-                        con conocimiento senior, motivados y
-                        alineados con nuestros valores.
-                    </p>
-
-            </div>
-
-        </div>
-
-        <div class="banderas-container">
-            <p>GSP Consultores, a través de su staff de consultores posee experiencia en variados países, los principales de ello son:
-            </p>
-            <div class="banderas">
-                <img data-aos="flip-left" src="./assets/banderas/argentina.png" alt="argentina"><img data-aos="flip-left" src="./assets/banderas/brasil.png" alt="brasil"><img data-aos="flip-left" src="./assets/banderas/chile.png" alt="chile"><img data-aos="flip-left" src="./assets/banderas/colombia.png" alt="colombia"><img data-aos="flip-left" src="./assets/banderas/costa_rica.png" alt="costa_rica"><img data-aos="flip-left" src="./assets/banderas/ecuador.png" alt="ecuador"><img data-aos="flip-left" src="./assets/banderas/españa.png" alt="españa"><img data-aos="flip-left" src="./assets/banderas/usa.png" alt="usa"><img data-aos="flip-left" src="./assets/banderas/panama.png" alt="panama"><img data-aos="flip-left" src="./assets/banderas/peru.png" alt="peru"><img data-aos="flip-left" src="./assets/banderas/vzla.png" alt="vzla">
-            </div>
-        </div>
-
-        <div class="contacto-container">
-            <h2>Contacto</h2>
-            <div class="contacto-form">              
-                <form action="enviar.php" method="post">
-                    <div class="input">
-                        <input type="text" name="nombre" placeholder="Nombre" required>
-                        <input type="mail" name="correo" placeholder="Correo Electrónico" required>
-                        <input type="text" name="asunto" placeholder="Asunto" required>
-                    </div>
-                    <div class="text-area">
-                        <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
-                        <input class="btn" type="submit" value="Enviar" id="btn">
-                    </div>  
-                </form>
-                <div class="contacto-info">
-                    <p>
-                        <b>GSP Consultores Chile</b>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i>Orinoco 90 Piso 21 Las Condes, Santiago de Chile
-                        <br>
-                        <i class="fa-solid fa-phone"></i>+56 2 XXX
-                        <br>
-                        <i class="fa-solid fa-envelope"></i>gspgspgsp@gsp.com
-                        <br>
-                        <br>
-                        <b>GSP Consultores Ecuador</b>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i>12 de octubre 24-739 Ed. Boreal of 1401, Quito
-                        <br>
-                        <i class="fa-solid fa-phone"></i>+593 2 3826 916
-                        <br>
-                        <i class="fa-solid fa-envelope"></i>gspgspgsp@gsp.com
-                    </p>
-                    
-                
-                </div>
-            </div>
-            
-
-        </div>
-
+      </div>
     </main>
     <footer>
-        <div>
-            <img src="./assets/logo_gsp.png" alt="Logo_gsp">
-        </div>
-        <div class="marca">
-            <small>
-                &copy; 2023 <b>Agencia KA.</b> - Todos los Derechos reservados.
-            </small>
-        </div>
-
+      <div>
+        <img src="./assets/logo_gsp.png" alt="Logo_gsp" />
+      </div>
+      <div class="marca">
+        <small>
+          &copy; 2023 <b>Agencia KA.</b> - Todos los Derechos reservados.
+        </small>
+      </div>
     </footer>
     <script src="./js/carrusel.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-
-</body>
+  </body>
 </html>

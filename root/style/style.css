@@ -90,6 +90,8 @@ header nav ul li a:hover{
     font-weight: bold;  
 }
 
+
+
 /* Footer */
 
 footer{
@@ -198,6 +200,10 @@ footer{
 
 
 /* Seccion 3 Consultoria SAP */
+
+.mobile{
+    display: none;
+}
 
 .consultoria-container{
     display: flex;
@@ -602,6 +608,217 @@ width: 100%;
 
 
 
+/* RESPONSIVE */
 
+@media screen and (max-width: 555px){
+
+    /* Header */
+    header img{
+        text-align: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    /* Nosotros */
+
+    .nosotros-container{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .gsp{
+        font-size: 130px;
+    }
+
+    .consultores{
+        font-size: 40px;
+    }
+
+    .nosotros-info p{
+        text-align: justify;
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+
+    .btn{
+        font-size: 20px;
+    }
+
+    /* Experiencia */
+
+    .experiencia-container{
+        flex-direction: column;
+    }
+
+    .experiencia-info{
+        padding: 10px 40px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .experiencia-info p{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .container-carousel img{
+        max-height: 300px;
+    }
+
+    /* Consultoria */
+
+    .consultoria-container{
+        flex-direction: column;
+        
+    }
+
+    .consultoria-container .mobile{
+        display: block;
+        margin-bottom: 20px;
+       margin-top: 20px;
+    }
+
+    .consultoria-info{
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+
+    .consultoria-info h2{
+        display: none;
+       
+    }
+
+    .consultoria-info p{
+        font-size: 20px;
+    }
+
+    /* Servicio */
+
+    .servicio-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicio-container h2{
+        margin-bottom: 20px;
+    }
+
+    .servicio-info{
+        padding: 10px 40px;
+    }
+
+    .servicio-info .mobile{
+        display: inline-block;
+    }
+
+    .img-hidden{
+        display: none;
+    }
+
+    .servicio-img{
+        text-align: center;
+    }
+
+    .servicio-info p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+     /* Socio */
+
+    .socio-container{
+        flex-direction: column;
+    }
+
+    .socio-info{
+        padding: 10px 40px;
+    }
+
+    .socio-info h2{
+        margin-bottom: 20px;
+    }
+
+    .socio-img img{
+        max-height: 350px;
+    }
+
+    .socio-info .mobile{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .socio-info p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /* Banderas */
+
+    .banderas-container{
+        padding: 10px 40px;
+    }
+
+    .banderas-container p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .banderas{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banderas img{
+        max-height: 70px;
+
+    }
+
+    /* Contacto */
+
+    .contacto-form{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    .contacto-form form{
+        padding: 10px 40px;
+    }
+
+    .contacto-form form .input{
+        width: 100%;
+    }
+
+    .contacto-form form .input input{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contacto-form form .text-area{
+        width: 100%;
+        margin: 0;
+    }
+
+    .contacto-info{
+        padding: 10px 40px;
+    }
+
+    .contacto-info p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+}
+    
 
 
