@@ -178,13 +178,13 @@ footer{
 }
 
 .carruseles{
-    width: 300%;
+    width: 600%;
     height: 100%;
     display: flex;
 }
 
 .slider-section{
-    width: calc(100% /3);
+    width: calc(100% /6);
     height: 100%;
 }
 
