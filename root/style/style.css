@@ -610,7 +610,7 @@ width: 100%;
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 555px){
+@media screen and (max-width: 700px){
 
     /* Header */
     header img{
@@ -819,6 +819,46 @@ width: 100%;
 
 
 }
-    
 
 
+
+@media screen and (min-width: 1000px) and (max-width:1459px){
+    .banderas{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width:999px){
+    .banderas{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .experiencia-container{
+        flex-direction: column;
+    }
+
+    .experiencia-info{
+        padding: 10px 40px;
+    }
+
+    h2{
+        text-align: center;
+        
+    }
+
+    .experiencia-info p{
+        text-align: justify;
+        
+    }
+
+    .container-carousel img{
+        max-height: 400px;
+    }
+
+  
+ 
+
+}
