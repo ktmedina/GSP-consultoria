@@ -9,6 +9,13 @@ body{
 	
 }
 
+.ancho{
+    width: 90%;
+    margin: auto;
+}
+
+
+
 a{
     text-decoration: none;
 }
@@ -44,6 +51,7 @@ h3{
 p{
     font-size: 24px;
     color: #191717;
+   
 }
 
 /* Header */
@@ -121,7 +129,7 @@ footer{
 .nosotros-container{
     
     display: flex;
-    margin: 50px auto;
+    margin: 15px auto;
     align-items: center;
 }
 
@@ -151,7 +159,7 @@ footer{
     color: #191717;
     font-size: 24px;
     padding: 40px;
-    text-align: left;
+    text-align: justify;
 }
 
 /* Seccion Experiencias */
@@ -160,13 +168,23 @@ footer{
     background-color: #ffff;
     display: flex; 
     margin: auto;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .experiencia-info{
     width: 100%;
-    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* padding: 100px 100px; */
     
     
+}
+
+.experiencia-info p{
+    text-align: justify;
 }
 
 
@@ -188,10 +206,11 @@ footer{
 .slider-section{
     width: calc(100% /6);
     height: 100%;
+    max-height: 500px;
 }
 
 .container-carousel img{ 
-    max-height: 500px;
+    
     height: 100%;
     object-fit: cover;
 
@@ -209,6 +228,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
 .consultoria-info{
@@ -245,6 +266,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #ffff;
+    
 }
 
 .servicio-img{
@@ -278,6 +300,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: auto;
 
 }
 
@@ -292,12 +316,15 @@ footer{
 
 .socio-info{
     width: 100%;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+}
+
+.socio-info p{
+    text-align: justify;
 }
 
 /* Seccion 6 Banderas */
@@ -508,14 +535,16 @@ width: 100%;
 
 .serv-2{
     padding: 30px;
-    width: 100%;
-    text-align: center;
+    width: auto;
+    height: 100%;
+    max-width: 800px ;
+    margin: auto;
 }
 
 .serv-2 img{
-    width: auto;
-    height: 100%;
-    max-height: 300px;
+    width: 100%;
+    
+    
 }
 
 .cualidades-container{
@@ -817,6 +846,55 @@ width: 100%;
         text-align: center;
     }
 
+    /* Pagina Nosotros */
+
+    .valores-info{
+        flex-direction: column;
+    }
+
+    .valores-info p{
+        font-size: 20px;
+    }
+
+    /* Pagina Servicios */
+
+    .proyectos-container{
+        display: none;
+    }
+
+    .serv-1{
+        flex-direction: column;
+    }
+
+    .serv-info p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .cualidades-container{
+        flex-direction: column;
+        
+    }
+
+    .cualidades-container p{
+        font-size: 20px;
+    }
+
+    /* pagina sap */
+
+    .consultoria_SAP-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .consultoria-card{
+        width: calc(100% /2);
+    }
+
+    .consultoria-card p{
+        font-size: 20px;
+    }
+
 
 }
 
@@ -846,6 +924,13 @@ width: 100%;
 
     h2{
         text-align: center;
+        font-size: 34px;
+        
+    }
+
+    .nosotros-info p, .experiencia-info p, .consultoria-info p, .servicio-info p, .socio-info p{
+        
+        font-size: 20px;
         
     }
 
@@ -857,6 +942,59 @@ width: 100%;
     .container-carousel img{
         max-height: 400px;
     }
+
+    /* Contacto */
+
+    .contacto-form{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    .contacto-form form{
+        padding: 10px 40px;
+    }
+
+    .contacto-form form .input{
+        width: 100%;
+    }
+
+    .contacto-form form .input input{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contacto-form form .text-area{
+        width: 100%;
+        margin: 0;
+    }
+
+    .contacto-info{
+        padding: 10px 40px;
+    }
+
+    .contacto-info p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .consultoria_SAP-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .consultoria-card{
+        width: calc(100% /2);
+    }
+
+    .consultoria-card p{
+        font-size: 20px;
+    }
+
+
 
   
  
