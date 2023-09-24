@@ -31,17 +31,17 @@
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="../assets/logo_gsp.png" alt="Logo_gsp" />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./nosotros.html">Nosotros</a></li>
-          <li><a href="./servicios.html">¡Servicios!</a></li>
-          <li><a href="./sap.html">Consultoría</a></li>
-        </ul>
-      </nav>
+        <div class="logo">
+            <img src="../assets/logo_gsp.png" alt="Logo_gsp">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./sap.html">Consultoría</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
       <div class="nosotros-container">
@@ -120,55 +120,49 @@
         </div>
       </div>
 
-      <div class="contacto-container">
-        <h2>Contacto</h2>
-        <div class="contacto-form">
-          <form action="enviar.php" method="post">
-            <div class="input">
-              <input type="text" name="nombre" placeholder="Nombre" required />
-              <input
-                type="mail"
-                name="correo"
-                placeholder="Correo Electrónico"
-                required
-              />
-              <input type="text" name="asunto" placeholder="Asunto" required />
+        <div class="contacto-container">
+            <h2>Contacto</h2>
+            <div class="contacto-form">              
+                <form action="enviar.php" method="post">
+                    <div class="input">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <input type="mail" name="correo" placeholder="Correo Electrónico" required>
+                        <input type="text" name="asunto" placeholder="Asunto" required>
+                    </div>
+                    <div class="text-area">
+                        <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+                        <input class="btn" type="submit" value="Enviar" id="btn">
+                    </div>  
+                </form>
+                <div class="contacto-info">
+                    <p>
+                        <b>GSP Consultores Chile</b>
+                        <br />
+                        <i class="fa-solid fa-location-dot"></i>Orinoco 90 Piso 21 Las
+                        Condes, Santiago de Chile.
+                        <br />
+                        <i class="fa-solid fa-phone"></i>+56 9 9615 4678
+                        <br />
+                        <i class="fa-solid fa-envelope"></i>consultoria_sap@gspconsultores.com
+                        <br />
+                        <br />
+                        <b>GSP Consultores Ecuador</b>
+                        <br />
+                        <i class="fa-solid fa-location-dot"></i>12 de octubre 24-739 Ed.
+                        Boreal of 1401, Quito, Ecuador.
+                        <br />
+                        <i class="fa-solid fa-phone"></i>+593 2 3826 916
+                        <br />
+                        <i class="fa-solid fa-envelope"></i>consultoria_sap@gspconsultores.com
+                      </p>
+                    
+                
+                </div>
             </div>
-            <div class="text-area">
-              <textarea
-                name="mensaje"
-                placeholder="Escriba su mensaje"
-                required
-              ></textarea>
-              <input class="btn" type="submit" value="Enviar" id="btn" />
-            </div>
-          </form>
-          <div class="contacto-info">
-            <p>
-              <b>GSP Consultores Chile</b>
-              <br />
-              <i class="fa-solid fa-location-dot"></i>Orinoco 90 Piso 21 Las
-              Condes, Santiago de Chile.
-              <br />
-              <i class="fa-solid fa-phone"></i>+56 9 9615 4678.
-              <br />
-              <i class="fa-solid fa-envelope"></i
-              >consultoria_sap@gspconsultores.com
-              <br />
-              <br />
-              <b>GSP Consultores Ecuador</b>
-              <br />
-              <i class="fa-solid fa-location-dot"></i>12 de octubre 24-739 Ed.
-              Boreal of 1401, Quito, Ecuador.
-              <br />
-              <i class="fa-solid fa-phone"></i>+593 2 3826 916
-              <br />
-              <i class="fa-solid fa-envelope"></i>
-              consultoria_sap@gspconsultores.com
-            </p>
-          </div>
+            
+
         </div>
-      </div>
+      
     </main>
     <footer>
       <div>
