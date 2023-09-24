@@ -8,9 +8,4 @@ $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nAsunto: " . $asu
 mail($destino, $asunto, $contenido);
 header("Location:gracias.html")
 
-
-
-
-
-
 ?>
