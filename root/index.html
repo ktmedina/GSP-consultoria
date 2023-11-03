@@ -27,13 +27,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Boostrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+   
     <!-- Estilos -->
     <link rel="stylesheet" href="./style/style.css" />
 
@@ -61,10 +55,11 @@
       <div class="nosotros-container">
         <div class="nosotros-container ancho">
           <div class="nosotros-nombre">
-            <h1 class="gsp animate__animated animate__backInDown">GSP</h1>
+            <img class="animate__animated animate__backInDown" src="./assets/logo_GSP-2.png" alt="logo_gsp">
+            <!-- <h1 class="gsp animate__animated animate__backInDown">GSP</h1>
             <p class="consultores animate__animated animate__backInDown">
               Consultores
-            </p>
+            </p> -->
           </div>
           <div class="nosotros-info">
             <p>
@@ -109,19 +104,18 @@
                 <img src="./assets/carrusel/6.png" />
               </section>
             </div>
-            <!-- <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
-                <div class="btn-right"><i class="bx bx-chevron-right"></i></div> -->
+           
           </div>
         </div>
       </div>
 
       <div class="consultoria-container">
-        <h2 class="mobile" data-aos="zoom-in">Consultoría SAP</h2>
+        <h2 class="mobile" data-aos="zoom-in">Consultoría SAP:</h2>
         <div data-aos="zoom-in" class="consultoria-img">
-          <img src="./assets/consultoria_sap.png" alt="consultoria_sap" />
+          <img src="./assets/consultor-sap.jpg" alt="consultoria_sap" />
         </div>
         <div class="consultoria-info">
-          <h2 data-aos="zoom-in">Consultoría SAP</h2>
+          <h2 data-aos="zoom-in">Consultoría SAP:</h2>
           <p data-aos="fade-right">
             <i class="fa-solid fa-circle"></i>Mantenimiento correctivo y
             evolutivo.
@@ -141,7 +135,7 @@
       <div class="servicio-container">
         <div class="servicio-container ancho">
         <div class="servicio-info">
-          <h2 data-aos="zoom-in">Nuestros Servicios</h2>
+          <h2 data-aos="zoom-in">Nuestros Servicios:</h2>
           <div data-aos="zoom-in" class="servicio-img">
             <img class="mobile" src="./assets/servicios.png" alt="consultoria_sap" />
           </div>
@@ -171,7 +165,7 @@
         </div>
         <div class="socio-info">
           <h2 data-aos="zoom-in-left">
-            Un Socio Comprometido Para Proyectarse Hacia El Futuro
+            ¡Un socio comprometido para proyectarse hacia el futuro!
           </h2>
           <div data-aos="zoom-in" class="socio-img mobile">
             <img src="./assets/socios.png" alt="socios_proyecto" />
@@ -249,19 +243,19 @@
         <div class="contacto-form">
           <form action="enviar.php" method="post">
             <div class="input">
-              <input type="text" name="nombre" placeholder="Nombre" required />
+              <input type="text" name="nombre" placeholder="Nombre:" required />
               <input
                 type="mail"
                 name="correo"
-                placeholder="Correo Electrónico"
+                placeholder="Correo Electrónico:"
                 required
               />
-              <input type="text" name="asunto" placeholder="Asunto" required />
+              <input type="text" name="asunto" placeholder="Asunto:" required />
             </div>
-            <div class="text-area">
+            <div class="text-area text_area">
               <textarea
                 name="mensaje"
-                placeholder="Escriba su mensaje"
+                placeholder="Escriba su mensaje:"
                 required
               ></textarea>
               <input class="btn" type="submit" value="Enviar" id="btn" />
@@ -269,10 +263,9 @@
           </form>
           <div class="contacto-info">
             <p>
-              <b>GSP Consultores Chile</b>
+              <b>GSP Consultores Chile</b>.
               <br />
-              <i class="fa-solid fa-location-dot"></i>Orinoco 90 Piso 21 Las
-              Condes, Santiago de Chile.
+              <i class="fa-solid fa-location-dot"></i>Camino del Arrayan 8273, Peñalolen, Santiago de Chile.
               <br />
               <i class="fa-solid fa-phone"></i>+56 9 9615 4678.
               <br />

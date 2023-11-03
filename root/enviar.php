@@ -1,5 +1,5 @@
 <?php
-$destino = "KENYATAPIA19@icloud.com";
+$destino = "consultoria_sap@gspconsultores.com";
 $nombre = $_POST["nombre"];
 $correo = $_POST["correo"];
 $asunto = $_POST["asunto"];

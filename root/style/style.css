@@ -42,11 +42,13 @@ h2{
     color: #E3B14A;
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 h3{
     color:#48A6B5;
     font-weight: bold;
+    font-size: 28px;
 }
 
 p{
@@ -74,6 +76,7 @@ header{
 .logo img{
     height: 100%;
     max-height: 100px;
+    margin-left: 25px;
 }
 
 header nav{
@@ -139,6 +142,11 @@ footer{
     text-align: center;
 }
 
+.nosotros-nombre img{
+    height: 150px;
+    
+}
+
 .gsp{
     color: #48A6B5;
     font-size:168px ;  
@@ -183,6 +191,8 @@ footer{
     
     
 }
+
+
 
 .experiencia-info p{
     text-align: justify;
@@ -258,6 +268,11 @@ footer{
 .consultoria-img{
     width: 100%;
     text-align: center;
+   
+}
+
+.consultoria-img img{
+    height:250px;
 }
 
 /* Seccion 4 Servicios */
@@ -324,6 +339,10 @@ footer{
     align-items: center;  
 }
 
+.socio-info h2{
+    text-align: center;
+}
+
 .socio-info p{
     text-align: justify;
 }
@@ -360,6 +379,7 @@ footer{
 
 .contacto-container h2{
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .contacto-form{
@@ -394,18 +414,25 @@ footer{
 
 .contacto-form form .text-area textarea{
     width: 100%;
-    min-height: 150px;
+    min-height: 135px;
     max-height: 150px;
+    /* height: 120px; */
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     border-radius: 20px;
     border: 0;
     padding: 20px;
    
 }
 
+
+
+
+
 .contacto-form form .text-area .btn{
     width: 100%;
+    border: none;
+    padding: 13px;
 }
 
 .contacto-info{
@@ -424,6 +451,8 @@ width: 100%;
 
 
 /* -------------------------- Nosotros -------------------------- */
+
+
 .valores-container{
     background-color: #ffff;
     padding: 30px 0;
@@ -443,6 +472,7 @@ width: 100%;
 
 .valores-info h3{
     margin-left: 20px;
+    font-size: 28px;
 }
 
 .valores-info p{
@@ -523,6 +553,10 @@ width: 100%;
     padding: 30px;
 }
 
+.serv-info h2{
+    text-align: center;
+}
+
 .serv-info-img{
     width: 100%;
     padding: 30px;
@@ -535,7 +569,7 @@ width: 100%;
 }
 
 .serv-2{
-    padding: 30px;
+    
     width: auto;
     height: 100%;
     max-width: 800px ;
@@ -558,6 +592,7 @@ width: 100%;
 .cualidades-container h2{
     margin: 10px;
     width: 100%;
+    text-align: center;
 }
 
 .cualidades-container p{
